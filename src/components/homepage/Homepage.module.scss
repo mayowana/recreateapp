@@ -1,0 +1,86 @@
+.home {
+    background-color: #ff2175;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    
+    img {
+        width: 20%;
+        margin: 0 auto;
+    }
+}
+
+.header {
+    font-size: 150%;
+    font-family: 'Gilroy';
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.body {
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 120%;
+}
+
+.waitlist {
+    
+    form { 
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+  
+
+    input {
+        padding: 1rem;
+        width: 20%;
+        border-radius: 0.5em;
+        background-color: white;
+        color: black;
+        border: none;
+        outline: none;
+    }
+
+    button {
+        margin: 0 2rem;
+        padding: 1rem;
+        border-radius: 0.5em;
+        border: none;
+        background-color: #ff76aa;
+        color: white;
+
+        &:hover {
+            background-color: #ff2175;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+    }
+}
+
+footer {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    margin-bottom: 0;
+
+    p {
+        color: white;
+    }
+}
+
+.icons {
+    color: white;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    margin: 1em;
+    background-color: #ff76aa;
+}

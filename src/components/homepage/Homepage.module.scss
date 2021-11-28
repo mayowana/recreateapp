@@ -84,3 +84,43 @@ footer {
     margin: 1em;
     background-color: #ff76aa;
 }
+
+@media screen and (max-width: 420px) {
+    .logo {
+    
+        img {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+
+    .header {
+        font-size: 120%;
+        font-family: 'Gilroy';
+        color: white;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .body {
+        color: white;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 110%;
+    }
+
+    .waitlist {
+    
+        form { 
+            display: flex;
+            flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .input {
+            width: 70% !important;
+            margin: 0.5rem 0;
+        }
+    }
+}

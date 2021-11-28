@@ -22,3 +22,10 @@
         border-radius: 0.5em;
     }
 }
+
+@media screen and (max-width: 420px) {
+    .modal {
+        width: 80%;
+        left: 10%;
+    }
+}

@@ -41,7 +41,7 @@ const Homepage = () => {
         <div></div>
 
         <div className={styles.header}>
-          <h1>Meet awesome people. Recreate amazing experiences.</h1>
+          <h1>Meet people. Make memories.</h1>
         </div>
         <div >
           <p className={styles.body}>With more people craving social connections and physical experiences,

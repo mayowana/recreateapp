@@ -118,9 +118,13 @@ footer {
         justify-content: center;
         }
 
-        .input {
-            width: 70% !important;
+        input {
+            width: 70%;
             margin: 0.5rem 0;
         }
+    }
+
+    footer {
+        flex-direction: column;
     }
 }

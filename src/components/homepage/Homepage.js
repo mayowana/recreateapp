@@ -5,10 +5,13 @@ import {FaFacebookF, FaTwitter} from 'react-icons/fa';
 import {AiFillInstagram} from 'react-icons/ai'
 import { db } from "../../firebase";
 import { addDoc, collection } from "firebase/firestore"; 
+import Backdrop from "../backdrop/Backdrop";
+import Modal from "../modal/Modal";
 
 const Homepage = () => {
 
     const [email, setEmail] = useState('');
+    const [modal, setModal] = useState(false)
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -16,7 +19,10 @@ const Homepage = () => {
           mail: email
         })
         setEmail('');
+        setModal(true);
     }
+
+    const offModal = () => {setModal(false)}
 
   return (
     <>
@@ -64,6 +70,9 @@ const Homepage = () => {
             </div>
         </footer>
       </div>
+
+      { modal ? <Backdrop /> : null }
+      { modal ? <Modal handleClick={() => offModal()}/> : null }
     </>
   );
 };

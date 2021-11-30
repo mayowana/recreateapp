@@ -51,7 +51,7 @@ const Homepage = () => {
         <div className={styles.waitlist}>
         <form onSubmit={handleSubmit}>
           <input placeholder="Your email" value={email} type="email" onChange={(e) => {setEmail(e.target.value)}}></input>
-          <button type="submit">JOIN THE WAITLIST</button>
+          <button type="submit"><b>JOIN THE WAITLIST</b></button>
           </form>
         </div>
         <div></div>

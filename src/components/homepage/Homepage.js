@@ -58,7 +58,7 @@ const Homepage = () => {
         <div></div>
         <div></div>
         <div></div>
-        <div></div>
+        <div> </div>
 
         <footer>
             <div><p>©2021 Recreate. All rights reserved. </p></div>

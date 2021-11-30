@@ -4,6 +4,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    // background: linear-gradient(0deg,rgba(23,23,31, 0.3), rgba(23,23,31, 0.3), url(../../media/back1.jpg));
+    background: url(../../media/back1.jpg) rgba(23,23,31, 0.8);
+    background-blend-mode: multiply;
+    background-size: cover;
 }
 
 .logo {
@@ -53,11 +57,11 @@
         padding: 1rem;
         border-radius: 0.5em;
         border: none;
-        background-color: #ff76aa;
+        background-color:#c9184a;
         color: white;
 
         &:hover {
-            background-color: #ff2175;
+            background-color: #c9184a;
             border: 2px solid white;
             cursor: pointer;
         }
@@ -81,8 +85,8 @@ footer {
     color: white;
     padding: 0.5em;
     border-radius: 0.3em;
-    margin: 1em;
-    background-color: #ff76aa;
+    margin: 1em 0.5em;
+    background-color: #c9184a;
 }
 
 @media screen and (max-width: 420px) {
@@ -121,6 +125,7 @@ footer {
         input {
             width: 70%;
             margin: 0.5rem 0;
+            font-size: 100%;
         }
     }
 

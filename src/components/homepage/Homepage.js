@@ -65,7 +65,7 @@ const Homepage = () => {
             <div></div>
             <div>
                 <FaFacebookF className={styles.icons} />
-                <FaTwitter className={styles.icons} />
+                <a href="https://twitter.com/recreateapp"><FaTwitter className={styles.icons} /></a>
                 <AiFillInstagram className={styles.icons} />
             </div>
         </footer>
